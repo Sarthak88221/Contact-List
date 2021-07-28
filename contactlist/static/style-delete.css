@@ -8,17 +8,22 @@ body{
 }
 
 .container{
-	max-width: 428px;
+	position:absolute;
+	top:0%;
+	left: 36%;
+	width: 428px;
+	/* max-width: 428px; */
 	margin: 0 auto;
 	background-color: #313438;
-       min-height: 100vh;
+    min-height: 100vh;
 }
 
 
 .hero{
 	color: white;
-	background: linear-gradient(90deg, rgba(111,177,127,1) 0%, rgba(154,173,89,1) 100%);	
 	padding: 2em 0; 
+	background: linear-gradient(90deg,#1eddff 15%,  #00badc  50%, #009fbb 100%);
+
 }
 
 .back-btn{
@@ -41,7 +46,7 @@ body{
 	border-radius: 100px;
 	border-top-left-radius: 0;
 	margin: 0;
-	background-color: #75A85E;
+
 }
 
 .friend{
@@ -84,7 +89,7 @@ p{
 }
 
 .delete-icon{
-	background: linear-gradient(90deg, rgba(111,177,127,1) 0%, rgba(154,173,89,1) 100%);
+	background: linear-gradient(90deg,#1eddff 15%,  #00badc  50%, #009fbb 100%);
 	border-radius: 100px;
 	font-size: 1.5em;
 	padding: .5em;

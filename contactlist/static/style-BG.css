@@ -22,15 +22,15 @@ i:hover{
     text-shadow: 0 0 120px #04d9ff ;
 }
 .row3{
-    position: relative;
+    position: inherit;
     width: 100%;
-    top: -86%;
-    left: -17%;
+    /* top: -86%; */
+    /* left: -41%; */
     display: flex;
     padding: 10px 0;
     white-space: nowrap;
     font-size: 22px;
-    transform: rotate(-30deg);
+    /* transform: rotate(-10deg); */
 }
 .row3 div{
     animation: animate1 40s linear infinite;

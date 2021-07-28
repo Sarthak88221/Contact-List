@@ -4,7 +4,6 @@ from .models import Contact
 def index(request):
     contacts = Contact.objects.all()
     search_input = request.POST.get('search-area')
-    print(search_input)
     if search_input:
         contacts = Contact.objects.filter(full_name__icontains=search_input)
     else:
